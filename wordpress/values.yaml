@@ -98,7 +98,7 @@ externalDatabase:
   user: bn_wordpress
 
   ## Database password
-  password: ""
+  password: "NetApp1!"
 
   ## Database name
   database: bitnami_wordpress
@@ -113,7 +113,7 @@ externalDatabase:
 ##
 mariadb:
   ## Whether to deploy a mariadb server to satisfy the applications database requirements. To use an external database set this to false and configure the externalDatabase parameters
-  enabled: true
+  enabled: false
   ## Disable MariaDB replication
   replication:
     enabled: false
